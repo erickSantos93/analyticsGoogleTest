@@ -1,8 +1,3 @@
-# Página de Prueba para Google Analytics
-
-Este archivo contiene el código HTML necesario para probar los flujos y eventos en Google Analytics 4 (GA4). Guarda el siguiente contenido como un archivo `.html`, por ejemplo `index.html`, y reemplaza tu ID de medición en el lugar correspondiente.
-
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
