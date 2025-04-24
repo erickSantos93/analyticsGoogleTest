@@ -11,13 +11,13 @@ Este archivo contiene el código HTML necesario para probar los flujos y eventos
     <title>Prueba de Flujos - Google Analytics</title>
     
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6CLKM9MY4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-XXXXXXXXXX'); // Reemplaza con tu ID real
+        gtag('config', 'G-E6CLKM9MY4'); // Reemplaza con tu ID real
     </script>
     <!-- Fin Google Analytics -->
 
