@@ -1,3 +1,8 @@
+# Página de Prueba para Google Analytics
+
+Este archivo contiene el código HTML necesario para probar los flujos y eventos en Google Analytics 4 (GA4). Guarda el siguiente contenido como un archivo `.html`, por ejemplo `index.html`, y reemplaza tu ID de medición en el lugar correspondiente.
+
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,13 +11,13 @@
     <title>Prueba de Flujos - Google Analytics</title>
     
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6CLKM9MY4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-E6CLKM9MY4'); // Reemplaza con tu ID real
+        gtag('config', 'G-XXXXXXXXXX'); // Reemplaza con tu ID real
     </script>
     <!-- Fin Google Analytics -->
 
